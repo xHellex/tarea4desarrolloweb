@@ -12,9 +12,108 @@ body{
     font-family: 'Space Mono', monospace;
 }
 
+header nav.main-nav{
+    background-color: rgb(22, 22, 124);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 30px;
+
+}
+
+a:link{
+    color: #fff;
+    font-family: 'Space Mono' monospace;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #fff;
+}
+
+a:hover{
+    color: aquamarine;
+    transition-delay:300ms;
+}
+
+
+section.banner{
+    width: 100%;
+}
+
+section.container{
+    margin-top: 40px;
+    width: 100%;
+    display: inline-flex;
+}
+
+aside{
+    margin-left: 20%;
+    margin-right: 5rem;
+}
+
+h1{
+    text-align: left;
+}
+
+p{
+    text-align: left;
+    line-height: 20px;
+}
+
+span{
+    background-color: rgb(11, 119, 138);
+    color: #fff;
+    border-radius: 100px;
+    font-size: 25px;
+    font-style: oblique;
+    padding: 7px;
+}
 
 .img{
     width: 300px;
     height: 300px;
     border-radius: 150px;
+}
+
+section.container2{
+    width: 100%;
+
+}
+
+h2{
+    font-size: 34px;
+    font-style: italic;
+}
+
+div.formulario{
+    margin-top: 2rem;
+    display:flex;
+    justify-content: center;
+}
+
+.input{
+    display:block;
+    margin-bottom: 20px;
+    width: 250px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button{
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(15, 12, 179);
+    padding:10px 30px;
+}
+
+
+
+footer{
+    margin-top: 20px;
+    background-color: rgb(18, 24, 100);
+    color: #fff;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
